@@ -14,7 +14,6 @@ function twoSum(numbers,target) {
             return value
         } 
     })
-    console.log(numbers)
     for (const i of numbers) {
         if (!checked.includes(i)) {
             checked.push(i)
